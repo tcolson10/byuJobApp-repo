@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ad81d63aa0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h1>Audition Application</h1>
+        <a href="homePage.html">Home</a> &emsp;&emsp;
+        <a href="aboutPage.html">About</a> &emsp;&emsp;
+        <a href="formPage.html">Auditions</a>
+    </div>
+    <br><br>
+
+
+
+    <div align="center">
+        <form>
+            <fieldset style="width:0px; text-align:left">
+                <legend>Student Info</legend>
+                <label for="firstName">First Name</label>
+                <input type="text" class="firstName" id="firstName" autofocus>
+                <br><br>
+                <label for="lastName">Last Name</label>
+                <input type="text" class="lastName" id="lastName">
+                <br><br>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" class="DOB" id="DOB" min="1/1/1950" max="6/04/2022">
+                <br><br>
+                <label for="GPA">Overall GPA</label>
+                <input type="number" class="GPA" id="GPA">
+                <br><br>
+                <label for="gender">Gender</label>
+                <select name="whichGender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Other</option>
+                </select>
+                <br><br>
+                <label for="email">What is your Email?</label>
+                <input type="text" class="email" id="email">
+                <br><br>
+                <label for="phoneNumber">What is your phone number?</label>
+                <input type="number" class="phone" id="phone">
+                <br><br>
+                <label for="auditionDate">When would you like to audition?</label>
+                <input type="date" class="DOA" id="DOA" min="3/01/2023" max="8/31/2023">
+
+
+            </fieldset>
+        </form>
+    </div>
+
+
+
+    <!-- I built this class below as well for the application. I wasn't sure if I should include this or not so I just commented it out. -->
+    <!-- <script>
+        class Application {
+            fName;
+            lName;
+            dob;
+            gpa;
+            gender;
+            email;
+            doa;
+            phone;
+            constructor(fName, lName, dob, gpa, gender, email, doa, phone) {
+                this.fName = "";
+                this.lName = "";
+                this.dob = "";
+                this.gpa = 0;
+                this.gender = "";
+                this.email = "";
+                this.doa = "";
+                this.phone = 0;
+            }
+        } {
+
+            oPerson = Application; {
+                oPerson.fName = document.getElementById("firstName");
+                oPerson.lName = document.getElementById("lastName");
+                oPersond.dob = document.getElementById("DOB");
+                oPersond.gpa = document.getElementById("GPA");
+                oPerson.gender = document.getElementById("gender");
+                oPerson.email = document.getElementById("email");
+                oPersond.doa = document.getElementById("DOA");
+                oPerson.phone = document.getElementById("phone");
+            }
+
+        }
+
+    
+    </script> -->
+
+
+
+    <div class="footer">
+        <br><br><br><br>
+        <div>Connect with us</div>
+        <a href="https://www.facebook.com/ByuDepartmentOfDance/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/byudance/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <br><br>
+        <a href="https://www.byu.edu/"><img src="byuLogo.png" width="100" height="100" alt="BYU Logo"></a>
+        <br>
+        <div style="font-size:small">Brigham Young University</div>
+        <div style="font-size:small">Provo, Ut 84602, USA</div>
+        <div style="font-size:small">801-422-4636</div>
+        <br>
+    </div>
+</body>
+
+
+</html>

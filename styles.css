@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Oxygen, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    margin: 0px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-size: x-large;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+}
+
+.footer a {
+    color: #002e5d;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #0062B8;
+    color: white;
+    font-size: 30px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.employees {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.employeeName {
+    font-size: 35px;
+    text-align: center;
+}
+
+.employeeText {
+    font-size: 16px;
+    text-align: center;
+}
